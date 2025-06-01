@@ -18,11 +18,11 @@ This project implements the biogeographic dissimilarity component (B) of the IBE
 
 ### Top 5 IBT Projects by Flow Volume
 
-1. **Ganga/Brahmaputra ’ Peninsular rivers** (India): 200 km³/yr, 0.828 dissimilarity
-2. **Yangtze ’ Yellow & Hai** (China): 44.8 km³/yr, 0.832 dissimilarity  
-3. **Colorado ’ Imperial & Coachella** (USA): 23 km³/yr, 0.826 dissimilarity
-4. **Sutlej-Beas ’ Thar Desert** (India): 16.5 km³/yr, 0.926 dissimilarity
-5. **Narmada ’ Gujarat & Rajasthan** (India): 11.7 km³/yr, 1.000 dissimilarity
+1. **Ganga/Brahmaputra â€™ Peninsular rivers** (India): 200 kmÂ³/yr, 0.828 dissimilarity
+2. **Yangtze â€™ Yellow & Hai** (China): 44.8 kmÂ³/yr, 0.832 dissimilarity  
+3. **Colorado â€™ Imperial & Coachella** (USA): 23 kmÂ³/yr, 0.826 dissimilarity
+4. **Sutlej-Beas â€™ Thar Desert** (India): 16.5 kmÂ³/yr, 0.926 dissimilarity
+5. **Narmada â€™ Gujarat & Rajasthan** (India): 11.7 kmÂ³/yr, 1.000 dissimilarity
 
 ### Key Findings
 
@@ -69,46 +69,49 @@ uv run src/visualize_top_projects.py
 uv run src/data_ingest.py
 ```
 
+Hereâ€™s the cleaned and properly formatted Markdown. All garbled characters (e.g. `Â¿`, ``, `=`) have been removed or fixed, and indentation has been corrected:
+
+```markdown
 ## Project Structure
+```
 
 ```text
 ibwt_ecology/
-¿¿¿ data/                         # Datasets and results
-¿   ¿¿¿ Basin042017_3119.*       # Drainage basins shapefile
-¿   ¿¿¿ *_Table.csv              # Fish occurrence data
-¿   ¿¿¿ Top_20_IBT_Projects_with_Coordinates.csv
-¿   ¿¿¿ IBT_Fish_Diversity_Results.csv
-¿
-¿¿¿ visualizations/              # Generated charts and plots
-¿¿¿ src/                         # Analysis scripts
-¿   ¿¿¿ data_ingest.py           # Data loading utilities
-¿   ¿¿¿ match_fish_diversity.py  # Main analysis pipeline
-¿   ¿¿¿ visualize_top_projects.py# Visualization generation
-¿
-¿¿¿ pyproject.toml               # Project configuration
-¿¿¿ requirements.txt             # Dependencies
-
-
+â”œâ”€â”€ data/                         # Datasets and results
+â”‚   â”œâ”€â”€ Basin042017_3119.*       # Drainage basins shapefile
+â”‚   â”œâ”€â”€ *_Table.csv              # Fish occurrence data
+â”‚   â”œâ”€â”€ Top_20_IBT_Projects_with_Coordinates.csv
+â”‚   â””â”€â”€ IBT_Fish_Diversity_Results.csv
+â”‚
+â”œâ”€â”€ visualizations/              # Generated charts and plots
+â”œâ”€â”€ src/                         # Analysis scripts
+â”‚   â”œâ”€â”€ data_ingest.py           # Data loading utilities
+â”‚   â”œâ”€â”€ match_fish_diversity.py  # Main analysis pipeline
+â”‚   â””â”€â”€ visualize_top_projects.py# Visualization generation
+â”‚
+â”œâ”€â”€ pyproject.toml               # Project configuration
+â””â”€â”€ requirements.txt             # Dependencies
+````
 
 ## Output Files
 
-- **`IBT_Fish_Diversity_Results.csv`**: Complete analysis results with species counts and dissimilarity metrics
-- **`visualizations/`**: Individual project charts (2x2 layout) and summary comparison plots
+* **`IBT_Fish_Diversity_Results.csv`**: Complete analysis results with species counts and dissimilarity metrics
+* **`visualizations/`**: Individual project charts (2x2 layout) and summary comparison plots
 
 ## IBEII Framework Implementation
 
 This project implements the **B (Biogeographic Dissimilarity)** component of the IBEII formula:
 
-**IBEII = F × B × E**
+**IBEII = F Ã— B Ã— E**
 
--  **B**: Jaccard dissimilarity between basin fish assemblages (implemented)
-- = **F**: Relative flow volume (design flow / mean annual flow)
-- = **E**: Environmental/mitigation factor scoring
+* **B**: Jaccard dissimilarity between basin fish assemblages (**implemented**)
+* **F**: Relative flow volume (design flow / mean annual flow)
+* **E**: Environmental/mitigation factor scoring
 
 ## References
 
-- Tedesco, P.A. et al. (2017). A global database on freshwater fish species occurrence in drainage basins. *Scientific Data*, 4, 170141.
-- IBEII framework based on proposed ecological impact indicator methodology for inter-basin water transfers.
+* Tedesco, P.A. et al. (2017). A global database on freshwater fish species occurrence in drainage basins. *Scientific Data*, 4, 170141.
+* IBEII framework based on proposed ecological impact indicator methodology for inter-basin water transfers.
 
 ## License
 
