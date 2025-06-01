@@ -1,0 +1,21 @@
+rank,basin_pair,project,design_flow,sender_basin,receiver_basin,sender_species_count,sender_native_count,sender_exotic_count,receiver_species_count,receiver_native_count,receiver_exotic_count,jaccard_similarity,jaccard_dissimilarity,shared_species_count,total_unique_species
+1,Ganga/Brahmaputra → Peninsular rivers,"National River-Linking, IN",≈ 200,Ganges,Krishna,393,369,24,153,144,9,0.17167381974248927,0.8283261802575107,80,466
+2,Yangtze (Han tributary) → Yellow & Hai,"South–North Water Transfer, CN",44.8,Yangtse,Hai.He,441,434,7,135,125,10,0.16835699797160245,0.8316430020283976,83,493
+3,Colorado R. → Imperial & Coachella valleys,"All-American Canal, US",≈ 23,Colorado.USA,Whitewater,138,43,95,31,2,29,0.1736111111111111,0.8263888888888888,25,144
+4,Sutlej-Beas → Thar Desert,"Indira Gandhi Canal, IN",≈ 16.5,Indus,Ghaggar,256,240,16,19,19,0,0.07421875,0.92578125,19,256
+5,Narmada → Gujarat & Rajasthan,"Narmada Main Canal, IN",11.7,Mahanadi,Ghaggar,23,22,1,19,19,0,0.0,1.0,0,42
+6,Sacramento-Trinity → San Joaquin/Tulare,"Central Valley Project, US",9.1,Klamath,San.Joaquin,65,35,30,63,30,34,0.4222222222222222,0.5777777777777777,38,90
+7,Krishna → Pennar/Kaveri (Telugu Ganga),"Telugu Ganga, IN",3.7,Krishna,Pennar,153,144,9,84,81,3,0.3699421965317919,0.630057803468208,64,173
+8,Sacramento Delta → S. California,"State Water Project, US",≈ 3.0,Sacramento,Los.Angeles,75,36,39,45,12,33,0.3953488372093023,0.6046511627906976,34,86
+9,Krishna → Pennar (Kurnool-Cudappah),"K C Canal, IN",≈ 2.7,Krishna,Pennar,153,144,9,84,81,3,0.3699421965317919,0.630057803468208,64,173
+10,Irtysh → Karaganda/Ishim,"Irtysh-Karaganda, KZ",≈ 2.4,Ob,Ob,61,47,14,61,47,14,1.0,0.0,61,61
+11,Nubian aquifer → Libyan coast,"Great Man-Made River, LY",≈ 2.4,Enneri.Tomou,Oued.Abdallah,2,2,0,1,1,0,0.0,1.0,0,3
+12,Snowy & Eucumbene → Murray/Murrumbidgee,"Snowy Mountains, AU",2.3,Snowy,Murray.Darling,32,26,6,73,59,14,0.3291139240506329,0.6708860759493671,26,79
+13,Godavari → Krishna (Polavaram),"Polavaram link, IN",2.27,Godavari,Krishna,99,93,6,153,144,9,0.4318181818181818,0.5681818181818181,76,176
+14,Colorado → Phoenix/Tucson,"Central Arizona Project, US",1.73,Colorado.USA,Colorado.USA,138,43,95,138,43,95,1.0,0.0,138,138
+15,Colorado → Los Angeles basin,"Colorado River Aqueduct, US",1.5,Colorado.USA,Los.Angeles,138,43,95,45,12,33,0.16560509554140126,0.8343949044585988,26,157
+16,Dnieper → Crimea,"North Crimean Canal, UA",1.5,Dnepr,Dnepr,83,72,11,83,72,11,1.0,0.0,83,83
+17,Par & Tapi → Narmada,"Par-Tapi-Narmada Link, IN",1.35,Godavari,Narmada,99,93,6,99,96,3,0.4142857142857143,0.5857142857142856,58,140
+18,Periyar → Vaigai,"Periyar (Mullaperiyar) Project, IN",≈ 1.3,Periyar,Cauvery,67,62,5,169,161,8,0.26881720430107525,0.7311827956989247,50,186
+19,Tuxpan/Cutzamala → Mexico City,"Cutzamala System, MX",0.47,Balsas,Valle.de.Mexico,101,79,22,10,9,1,0.01834862385321101,0.981651376146789,2,109
+20,Colorado → Front-Range cities,"Colorado-Big Thompson, US",0.28,Colorado.USA,Mississippi,138,43,95,502,436,66,0.14695340501792115,0.8530465949820789,82,558
